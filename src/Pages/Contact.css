@@ -1,0 +1,72 @@
+h2 {
+  font-weight: 200;
+  color: white;
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  width: fit-content;
+  border-color: red;
+}
+.row {
+  display: flex;
+}
+.side-content {
+  flex: 0 0 14%;
+  
+}
+.main-content {
+  flex: 0 0 69%;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;  
+}
+.contact {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 35px;
+}
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+#leftcontact {
+  width: 50%;
+}
+#rightcontact {
+  width: 50%;
+}
+.contact input,
+.contact textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  background: #303030;
+  font-size: 20px;
+  color: #fff;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: none;
+}
+.contact button {
+  display: block;
+  background-color: #303030;
+  border-radius: 4px;
+  padding: 15px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+p {
+  padding-bottom: 25px;
+}

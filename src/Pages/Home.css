@@ -1,0 +1,66 @@
+.priya-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.priya-text h1 {
+  font-weight: 800;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.priya-text p {
+  margin: 0;
+}
+
+.wrapper {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper ul {
+  list-style: none;
+  display: flex;
+}
+
+.wrapper ul li {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #d8e2dc;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li .fa {
+  color: #d8e2dc;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.github {
+  border: 5px solid #5b5d61;
+  box-shadow: 0 0 15px #44516d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.linkedin {
+  border: 5px solid #5b5d61;
+  box-shadow: 0 0 15px #44516d;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa {
+  color: #5b5d61;
+  text-shadow: 0 0 15px #5b5d61;
+  transition: all 0.5s ease;
+}
